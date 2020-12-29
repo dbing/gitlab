@@ -9,7 +9,7 @@ cp .env.example .env
 
 ## HTTPS 证书配置
 
-将证书文件放置于 `config/ssl` 目录下，并配置 `.env` 中的如下两项：
+将证书文件放置于 `$GITLAB_HOME/config/ssl` 目录下，并配置 `.env` 中的如下两项：
 
 ```shell
 SSL_CERTIFICATE=
