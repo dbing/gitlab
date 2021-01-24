@@ -5,6 +5,7 @@
 ```shell
 cp .env.example .env
 ```
+
 按照实际环境设置相关环境变量。
 
 ## HTTPS 证书配置
@@ -15,6 +16,7 @@ cp .env.example .env
 SSL_CERTIFICATE=
 SSL_CERTIFICATE_KEY=
 ```
+
 > 这里的路径是 Gitlab 容器里的绝对路径，也就是 /etc/gitlab/ssl/{你证书的文件名}
 
 ## 启动服务
